@@ -1,6 +1,6 @@
 from random import randint
-chislo=randint(1,100)
-print('Угадайте число от 1 до 101:')
+chislo=randint(1,101)
+print('Угадайте число от 1 до 100:')
 x=int(input())
 if x==chislo:
     print('Вы угадали')
